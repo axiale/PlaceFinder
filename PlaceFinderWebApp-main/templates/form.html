@@ -1,0 +1,23 @@
+<form action="/data" method="POST">
+    <strong>
+        Приложение поможет найти лучшее место в указанной области <br>
+        А также выведет погоду, которая будет там через введенное количество часов <br>
+    </strong>
+    <p>
+        Место, вокруг которого будем искать: <input type="text" name="dest_location"/>
+    </p>
+    <p>
+        Радиус поиска (в метрах): <input type="text" name="radius"/>
+    </p>
+    <p>
+        Время, через которое там будете (в часах): <br>
+        <i> Если меньше часа, указывать ноль </i>
+        <input type="number" name="time"/>
+    </p>
+    <p>
+        По какому тегу искать место: <input type="text" name="tag"/>
+    </p>
+    <p>
+        <input type="submit" value="'Submit"/>
+    </p>
+</form>
